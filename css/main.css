@@ -1,0 +1,46 @@
+
+
+
+
+/* Custom Styles */
+
+
+.who-we-are-banner { 
+    margin-block-end: 30px;
+}
+
+.who-we-are .section-title { 
+    margin-inline: 0; 
+}
+
+.who-we-are .underline::before {
+    left: 0;
+    transform: translateX(0);
+}
+
+.who-we-are-text {
+    font-size: var(--fs-8);
+    margin-block-end: 20px;
+}
+
+.stats-list {
+    display: grid;
+    gap: 30px;
+}
+
+.stats-card {
+    text-align: center;
+    padding: 15px;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius-12);
+}
+
+.stats-title {
+    color: var(--st-patricks-blue);
+    font-size: var(--fs-2);
+    font-weight: var(--fw-700);
+}
+
+.stats-text { 
+    font-size: var(--fs-8); 
+}
